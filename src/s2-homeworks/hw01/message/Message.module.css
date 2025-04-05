@@ -1,31 +1,77 @@
 .message {
-
+    display: flex;
+    flex-direction: column; /* Stack elements vertically */
+    align-items: flex-end; /* Aligns the message bubble to the right */
+    margin: auto;
+    max-width: 1000%; /* Limits the width of the message bubble */
+    padding: 10px; /* Padding inside the message bubble */
+    margin-bottom: 10px; /* Space between messages */
 }
 
 .imageAndText {
+   
 
 }
 
 .imageAndText img {
-
+    float: right;
+    width: 40px;
+    /* Set a fixed width for the image */
+    height: 40px;
+    /* Set a fixed height for the image */
+    border-radius: 50%;
+    /* Make the image circular */
+    object-fit: cover;
+    margin-left: 10px;
+    margin-top: 20px;
 }
 
 .text {
-
+    display: flex;
+    flex-direction: column; /* Stack name and text vertically */
+    align-items: flex-end; /* Aligns name and text to the right */
+    background-color: #0066CC;
+    color: white;
+    border-radius: 20px 20px 0 20px;
+    padding: 10px 20px;
+    width: fit-content;
+    position: relative;
+  
 }
 
 .text:after {
-
+    content: "";
+    width: 25px;
+    height: 25px;
+    /* to make appear */
+    display: block; 
+    background-color: #0066CC;
+    position: absolute;
+    bottom: 0;
+    left: 100%;
+    background: radial-gradient(60px at top right,
+    transparent 49%,  #0066cc 51%) no-repeat right bottom;
+  
 }
 
 .name {
-
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
 }
 
 .messageText {
-
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-size: 20px;
+    font-style: normal;
 }
 
 .time {
 
+    
+   
+  
+   
 }
+

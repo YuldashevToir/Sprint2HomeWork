@@ -15,8 +15,8 @@ const MessageSender = (props: any) => {
 
     useEffect(() => {
         if (textareaRef?.current) {
-            textareaRef.current.style.height = '0px'
-            textareaRef.current.style.height = textareaRef.current.scrollHeight + 'px'
+            textareaRef.current.style.height = '0px'// the reason why I connot adjust
+            textareaRef.current.style.height = textareaRef.current.scrollHeight + 'px' //  the reason font-size worked
         }
     }, [text])
 
@@ -46,7 +46,7 @@ const MessageSender = (props: any) => {
             ))}
 
             <div id={'hw1-send-message-form'} className={s.sendForm}>
-                <textarea
+                <textarea 
                     id={'hw1-textarea'}
                     className={s.textarea}
                     ref={textareaRef}
