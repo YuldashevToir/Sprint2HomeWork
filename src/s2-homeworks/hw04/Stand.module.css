@@ -1,5 +1,6 @@
 .stand {
     display: flex;
+    flex-direction: column;
     justify-content: space-between;
     align-items: center;
 }
@@ -7,17 +8,17 @@
 .inputs {
     display: flex;
     flex-direction: column;
-    gap: 48px;
+    gap: 4px;
 }
 
 .buttons {
     display: flex;
     flex-direction: column;
-    gap: 24px;
+    gap: 2px;
 }
 
 .checkboxes {
     display: flex;
     flex-direction: column;
-    gap: 36px;
+    gap: 3px;
 }

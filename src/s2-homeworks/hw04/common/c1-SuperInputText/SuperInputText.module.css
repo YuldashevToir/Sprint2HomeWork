@@ -8,13 +8,16 @@
 }
 
 .superInput {
+    
 }
 
 .errorInput {
+    border: 3px solid red;
 }
 
 .errorInput:focus {
 }
 
 .error {
+    color: red;
 }
