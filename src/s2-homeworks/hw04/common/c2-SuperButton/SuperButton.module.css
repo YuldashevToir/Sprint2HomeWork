@@ -20,7 +20,7 @@
 
 .default {
     
-    background-color: #545b61;
+    background-color: #000000;
 }
 
 .red {
@@ -53,5 +53,5 @@
 }
 
 .button:disabled {
-    background-color: #545b61;
+   
 }
