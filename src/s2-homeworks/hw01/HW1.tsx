@@ -57,7 +57,7 @@ const HW1 = () => {
     return (
         <div id={'hw1'}>
             <div className={s2.hwTitle}>
-                <h2>Homework #1</h2></div>
+                Homework #1</div>
             <div className={s2.hw}>
                 {/*проверка отображения (не менять)*/}
                 <div>
