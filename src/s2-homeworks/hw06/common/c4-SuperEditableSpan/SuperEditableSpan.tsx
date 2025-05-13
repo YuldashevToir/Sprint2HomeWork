@@ -90,11 +90,11 @@ const SuperEditableSpan: React.FC<SuperEditableSpanType> = (
                         onDoubleClick={onDoubleClickCallBack}
                         className={spanClassName}
                         {...restSpanProps}
-                    >Edit text
+                    >
                         {/*если нет захардкодженного текста для спана, то значение инпута*/}
                         
 
-                        {/* {children || restProps.value || defaultText} */}
+                        {children || restProps.value || defaultText}
                     </span>
                 </div>
             )}
