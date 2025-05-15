@@ -38,7 +38,9 @@ const SuperRadio: React.FC<SuperRadioPropsType> = ({
         // делают студенты
         
         if (onChangeOption ) {
-            onChangeOption(e.currentTarget.value);
+            onChangeOption(+e.currentTarget.value); // to (+)number true=1 false=0
+            console.log('radio');
+            
         }
 
        
