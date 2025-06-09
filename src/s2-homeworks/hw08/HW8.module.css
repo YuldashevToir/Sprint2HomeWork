@@ -1,23 +1,32 @@
 .item {
+   
 }
 
 .item:last-of-type {
+    
 }
 
 .users {
 }
 
 .buttonsContainer {
+    justify-self: center;
 }
 
 .container {
+    display: flex;
+    flex-direction: column;
 }
 
 .thead {
+    
+    
 }
 
 .nameCol {
+    
 }
 
 .ageCol {
+    
 }
