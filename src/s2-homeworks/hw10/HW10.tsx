@@ -24,9 +24,7 @@ const HW10 = () => {
         dispatch(loadingAC(!isLoading))
         // setTimeout
         setTimeout(()=>{
-            console.log(isLoading);
-              
-            dispatch(loadingAC(isLoading))
+          ;dispatch(loadingAC(isLoading))
         },1500)
         
     }
